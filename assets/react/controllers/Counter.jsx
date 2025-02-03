@@ -34,10 +34,9 @@ function Counter() {
 
     return (
         <div>
-            <h2>Compteur</h2>
-            <p>Valeur actuelle : {count}</p>
-            <button onClick={() => dispatch(increment())}>Incrémenter</button>
-            <button onClick={() => dispatch(decrement())}>Décrémenter</button>
+            <p>Current value: {count}</p>
+            <button onClick={() => dispatch(increment())}>Increment</button>
+            <button onClick={() => dispatch(decrement())}>Decrement</button>
         </div>
     );
 }

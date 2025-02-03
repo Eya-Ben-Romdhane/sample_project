@@ -1,3 +1,98 @@
+@import '~bootstrap/dist/css/bootstrap.min.css';
+
+/* Styles globaux */
 body {
-    background-color: skyblue;
+    background-color: #eef2f7; /* Couleur douce et moderne */
+    font-family: 'Poppins', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Police élégante */
+    line-height: 1.7; /* Amélioration de la lisibilité */
+    color: #495057; /* Couleur de texte neutre */
+    margin: 0;
+    padding: 0;
+}
+
+/* Conteneur principal */
+.container {
+    max-width: 900px; /* Largeur légèrement augmentée */
+    margin: auto;
+    padding: 40px; /* Espacement interne généreux */
+    border-radius: 16px; /* Coins plus arrondis */
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1); /* Ombre plus douce et professionnelle */
+    background-color: #ffffff;
+    margin-top: 120px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.container:hover {
+    transform: scale(1.02); /* Effet de survol subtil */
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15); /* Ombre plus prononcée au survol */
+}
+
+/* Titres */
+h2 {
+    color: #1d3557; /* Couleur bleue élégante */
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 2.5rem; /* Taille légèrement augmentée */
+    font-weight: 700;
+    letter-spacing: 1px; /* Espacement des lettres */
+}
+
+/* Champs de saisie */
+.input-group {
+    margin-bottom: 25px; /* Espacement plus généreux */
+}
+
+input.form-control {
+    border: 1px solid #ced4da;
+    border-radius: 8px; /* Coins légèrement arrondis */
+    padding: 12px; /* Espacement interne augmenté */
+    font-size: 1rem; /* Taille de police standardisée */
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+input.form-control:focus {
+    border-color: #1d3557; /* Couleur de focus bleue élégante */
+    box-shadow: 0 0 5px rgba(29, 53, 87, 0.5); /* Ombre subtile au focus */
+}
+
+/* Boutons */
+button.btn {
+    background-color: #1d3557; /* Couleur bleue élégante */
+    color: #ffffff;
+    border: none;
+    padding: 12px 20px;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 8px; /* Coins arrondis */
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Ombre subtile */
+}
+
+button.btn:hover {
+    background-color: #457b9d; /* Couleur plus claire au survol */
+    transform: translateY(-2px); /* Léger effet de soulèvement */
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2); /* Ombre accentuée */
+}
+
+/* Liens */
+a {
+    color: #1d3557;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #457b9d; /* Couleur plus claire au survol */
+}
+
+/* Pied de page */
+footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    background-color: #f8f9fa;
+    border-radius: 12px;
+    color: #6c757d;
+    font-size: 0.9rem;
 }
