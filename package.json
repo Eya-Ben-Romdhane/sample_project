@@ -10,11 +10,13 @@
     "@babel/plugin-syntax-jsx": "^7.25.9",
     "@babel/preset-react": "^7.26.3",
     "@hotwired/stimulus": "^3.2.2",
+    "@reduxjs/toolkit": "^2.5.1",
     "@symfony/stimulus-bridge": "^4.0.0",
     "@symfony/webpack-encore": "^5.0.1",
     "core-js": "^3.40.0",
     "react": "18",
     "react-dom": "18",
+    "react-redux": "^9.2.0",
     "react-select": "^5.10.0"
   },
   "devDependencies": {
